@@ -36,8 +36,9 @@ textarea{
   border-top: 1px solid white;;
 }
 
+
 .hour {
-  background-color: #ffffff;
+  background-color: #d3d3d3;
   color: #000000;
   border-top: 1px dashed #000000;
 }
@@ -68,4 +69,12 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+.saveIcon {
+  background-image: url(./images/save.png);
+  background-size: 15px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 0 30px 0 30px;
 }
